@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pixar</string>
+    <string name="score">Score : 10</string>
+    <string name="time">Time : 55 sec</string>
 </resources>

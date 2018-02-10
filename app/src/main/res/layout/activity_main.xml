@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.podgram.pixar.MainActivity">
 
-<<<<<<< HEAD
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
         android:layout_width="0dp"
@@ -30,7 +29,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Score : 10"
+        android:text="@string/score"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -46,7 +45,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Time : 55 sec"
+        android:text="@string/time"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -76,7 +75,5 @@
         app:layout_constraintTop_toBottomOf="@+id/guideline4">
 
     </android.support.v4.view.ViewPager>
-=======
->>>>>>> e55f4bc94a154d15c6ea3d327fd75420c862fd19
 
 </android.support.constraint.ConstraintLayout>
